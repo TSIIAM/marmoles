@@ -1,0 +1,57 @@
+﻿
+body{
+background-color:#ffffcc;
+}
+
+.fondotabla{
+width:400px;
+height: 340px;
+background-color:#ffffcc;
+}
+
+.tabla{
+padding-top:25px;
+padding-right:25px;
+padding-left:30px;
+
+}
+
+
+.tabla table{
+width:320px;
+height:240px;
+border-collapse:collapse;
+color:white;
+font-style:arial;
+font-size:12px;
+font-weight:bold;
+
+}
+
+th, td{
+height:15px;
+text-align:right;
+padding:8px;
+}
+
+th{
+background-color:black;
+}
+
+
+
+tr:nth-child(even){
+background-color:#999999;
+
+}
+tr:nth-child(odd){
+background-color:#006666;
+
+}
+
+.tabla p{
+text-align:center;
+text-transform:uppercase;
+
+}
+

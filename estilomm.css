@@ -1,0 +1,105 @@
+body {
+    background-image: url("images/fondo.jpg")
+}
+
+.titulo {
+    width: 550px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.panel {
+    background-color: #ffffcc;
+    width: 185px;
+    height: 100%;
+    position: absolute;
+    top: 105px;
+    left: -45px;
+    z-index: 2;
+}
+
+.botones {
+    width: 185px;
+    height: 100%;
+    position: absolute;
+    top: 93px;
+    left: -48px;
+    z-index: 3;
+}
+
+.botones nav ul li {
+    display: flex;
+    margin-top: -5px;
+}
+
+.botones nav ul li img {
+    width: 150px;
+    height: 53px;
+}
+
+.contenido {
+    background-color: #ffff99;
+    width: 410px;
+    height: 100%;
+    position: absolute;
+    top: 103px;
+    left: 140px;
+    overflow: overlay;
+}
+
+.contenido p {
+    text-align: justify;
+    margin: 30px;
+    font-family: Verdana;
+    font-size: 11px;
+    font-color: #99000;
+}
+
+.contenido h3 {
+    text-align: justify;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-color: #99000;
+    text-transform: uppercase;
+}
+
+.contenido table {
+    background-color: #660000;
+    border: 1px solid white;
+    vertical-align: top;
+    padding: 0px;
+}
+
+.contenido table tr th {
+    background-color: #660000;
+    border: 1px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-color: #ffffcc;
+    color: #ffffcc;
+    width: 70%;
+}
+
+.contenido table tr th img {
+    width: 240px;
+    height: 157px;
+}
+
+.contenido table tr th a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.contenido table tr th a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.contenido table tr th a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
